@@ -1,0 +1,112 @@
+*,
+*:beofore,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0c1b;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.purple{
+    color: hsl(277, 64%, 61%);
+}
+
+/* main content */
+
+
+.main-box{
+    width: 725px;
+    height: 290px;
+    display: flex;
+    background-color: #1d1a3b;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.card{
+    width: 900px;
+    height: 377px;
+    display: flex;
+    background-color: #1d1a3b;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.main-content-right{
+    width: 51%;
+    padding: 15px 40px;
+    color: white;
+    margin: 20px;
+}
+
+.main-content-right h1{
+    font-size: 25px;
+    line-height: 1.15;
+    margin-bottom: 17px;
+}
+
+
+.people-counts {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    color: hsl(0, 9%, 98%);
+}
+
+.people-counts h1 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+.description{
+ color: #8e8ba5;
+ line-height: 1.5;
+ font-size: 14px;
+}
+
+.wrapper{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* left side with image */
+
+.image-box{
+    width: 57%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(153, 48, 207, 0.45);
+}
+
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
