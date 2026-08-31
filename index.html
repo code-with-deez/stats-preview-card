@@ -6,19 +6,24 @@
 
 <!-- file cdn -->
 
- 
-    
-
-
-
+    <link rel="preconnect" href="index.js">
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body id="demo" style="background-color: var(--dark-background);">
+
     
+    
+<div class="container-of-btns">
+
+<button class="btn" type="button" onclick="document.getElementById('demo').style.backgroundColor = 'var(--light-background)'" id="demo">Change to Light</button>
+
+<button class="btn" type="button" onclick="document.getElementById('demo').style.backgroundColor = 'var(--dark-background)'" id="demo">Change to Dark</button>
+
+
+
+</div>
 
 <div class="wrapper">
-
-
 
 <div class="card">
 
